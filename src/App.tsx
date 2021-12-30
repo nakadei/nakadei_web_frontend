@@ -1,46 +1,13 @@
-import { useState } from 'react'
-import logo from './logo.svg'
 import './App.css'
+import React from 'react'
+import { Top } from './pages/top'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App: React.VFC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1 className="text-3xl font-bold underline">
-          Hello world!
-        </h1>
-        <p>Hello Vite + React!</p>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
-        </p>
-        <p>
-          Edit <code>App.tsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
-      </header>
+    <div className="w-full h-full flex flex-col items-center bg-slate-100">
+      <div className="w-[640px] min-h-[500px] bg-white rounded-xl mt-10">
+        <Top />
+      </div>
     </div>
   )
 }

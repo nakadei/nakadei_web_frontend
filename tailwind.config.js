@@ -3,8 +3,13 @@ module.exports = {
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
+  mode: 'jit',
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        icon: "url('/assets/icon.svg')"
+      }
+    },
   },
   plugins: [],
 }
