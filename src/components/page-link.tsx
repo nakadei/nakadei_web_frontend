@@ -3,12 +3,11 @@ import clsx from 'clsx'
 
 type Props = {
   img: string;
-  text: string;
   linkText: string;
   url: string;
 }
 
-export const PageLink: React.VFC<Props> = ({ img, text, linkText, url }) => {
+export const PageLink: React.VFC<Props> = ({ img, linkText, url }) => {
   return (
     <div className="w-[300px] flex justify-center">
       <div className={clsx(
