@@ -23,7 +23,7 @@ const App: React.VFC = () => {
 
   return (
     <div className="w-full h-full flex flex-col items-center">
-      <div className="w-[640px] sm:w-[480px] md:w-[640px] lg:w-[640px] xl:w-[640px] min-h-[500px] flex flex-col bg-white rounded-xl border-4 border-white mt-10">
+      <div className="w-[480px] md:w-[640px] min-h-[500px] flex flex-col bg-white rounded-xl border-4 border-white mt-10">
         <div className="w-full">
           <Header active={activePage} onClick={handleHeaderRowClick} />
         </div>
