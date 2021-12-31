@@ -2,11 +2,11 @@
   "redirects": [
     {
       "source": "/profile",
-      "destination": "https://nakadei.jp/profile"
+      "destination": "https://nakadei.jp"
     },
     {
       "source": "/carrier",
-      "destination": "https://nakadei.jp/carrier"
+      "destination": "https://nakadei.jp"
     }
   ]
 }
