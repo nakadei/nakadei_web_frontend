@@ -1,0 +1,12 @@
+{
+  "redirects": [
+    {
+      "source": "/profile",
+      "destination": "https://nakadei.jp/profile"
+    },
+    {
+      "source": "/carrier",
+      "destination": "https://nakadei.jp/carrier"
+    }
+  ]
+}
