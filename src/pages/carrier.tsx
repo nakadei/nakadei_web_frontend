@@ -5,7 +5,7 @@ export const Carrier: React.VFC = () => {
     <div className="w-full h-full">
       <div className="bg-blue-50 rounded-b-xl py-4 flex flex-col justify-center">
         <div className="py-3 sm:max-w-xl sm:mx-auto w-full px-2 sm:px-0">
-          <div className="relative text-gray-700 font-extralight antialiased text-sm font-semibold">
+          <div className="relative text-slate-600 font-extralight antialiased">
 
             {/*<!-- Vertical bar running through middle -->*/}
             <div className="hidden sm:block w-1 bg-blue-300 absolute h-full left-1/2 transform -translate-x-1/2"></div>
@@ -18,7 +18,7 @@ export const Carrier: React.VFC = () => {
                     <div className="p-4 bg-white rounded shadow">
                       <p>Funabashi-Joho-Business</p>
                       <p>College of Technology</p>
-                      <p className="mt-2 text-right">2013/4 ~ 2016/3</p>
+                      <p className="mt-3 text-right">2013/4 ~ 2016/3</p>
                     </div>
                   </div>
                 </div>
@@ -38,7 +38,7 @@ export const Carrier: React.VFC = () => {
                     <div className="p-4 bg-white rounded shadow">
                       <p>Asia Quest Inc.</p>
                       <p className="mt-1 text-xs">Infra Engineer</p>
-                      <p className="mt-2 text-right">2016/4 ~ 2017/12</p>
+                      <p className="mt-3 text-right">2016/4 ~ 2017/12</p>
                     </div>
                   </div>
                 </div>
@@ -54,7 +54,7 @@ export const Carrier: React.VFC = () => {
                     <div className="p-4 bg-white rounded shadow">
                       <p>Japan Digital Design Inc.</p>
                       <p className="mt-1 text-xs">Infra / Corporate Engineer</p>
-                      <p className="mt-2 text-right">2018/9 ~ 2019/9</p>
+                      <p className="mt-3 text-right">2018/9 ~ 2019/9</p>
                     </div>
                   </div>
                 </div>
@@ -70,7 +70,7 @@ export const Carrier: React.VFC = () => {
                     <div className="p-4 bg-white rounded shadow">
                       <p>Japan Digital Design Inc.</p>
                       <p className="mt-1 text-xs">Infra / Frontend Engineer</p>
-                      <p className="mt-2 text-right">2019/10 ~ Present</p>
+                      <p className="mt-3 text-right">2019/10 ~ Present</p>
                     </div>
                   </div>
                 </div>
