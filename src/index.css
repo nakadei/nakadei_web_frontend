@@ -6,6 +6,7 @@
   font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
   height: 100%;
   width: 100%;
+  background-color: #F1F5F9;
 }
 body {
   -webkit-font-smoothing: antialiased;

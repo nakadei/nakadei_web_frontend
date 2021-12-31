@@ -7,7 +7,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        icon: "url('/assets/icon.svg')"
+        icon: "url('/assets/icon.svg')",
+        'icon-twitter': "url('./assets/icon-twitter.svg')",
+        'icon-github': "url('./assets/icon-github.svg')",
+        'icon-blog': "url('./assets/icon-blog.svg')"
       }
     },
   },

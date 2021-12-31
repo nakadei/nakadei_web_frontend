@@ -1,18 +1,21 @@
 import React from 'react'
+import clsx from 'clsx'
 
 type Props = {
+  img: string;
   text: string;
   linkText: string;
   url: string;
 }
 
-export const PageLink: React.VFC<Props> = ({ text, linkText, url }) => {
+export const PageLink: React.VFC<Props> = ({ img, text, linkText, url }) => {
   return (
     <div className="w-[300px] flex justify-center">
-      <div className="flex flex-col justify-center align-middle text-center text-slate-600 link link-hover">
-        {text}
-      </div>
-      <div className="flex flex-col justify-center align-middle text-center text-blue-600 font-light ml-2">
+      <div className={clsx(
+        'h-[24px] w-[24px] flex flex-col justify-center align-middle bg-no-repeat link link-hover',
+        img
+      )} />
+      <div className="flex flex-col justify-center align-middle text-center text-blue-600 font-light ml-1">
         <a href={url} className="no-underline hover:underline" target="_blank">
           {linkText}
         </a>
