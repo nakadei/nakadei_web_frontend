@@ -10,7 +10,7 @@ import { Top, Profile, Carrier } from './pages'
 import { Header } from './components'
 
 const App: React.VFC = () => {
-  const [activePage, setActivePage] = useState('Top')
+  const [activePage, setActivePage] = useState('/')
   const location = useLocation();
 
   useEffect(() => {
@@ -32,6 +32,7 @@ const App: React.VFC = () => {
             <Route path="/" element={<Top />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/carrier" element={<Carrier />} />
+            <Route path="*" element={<Top />} />
           </Routes>
         </div>
       </div>

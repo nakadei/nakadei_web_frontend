@@ -1,12 +1,8 @@
 {
-  "redirects": [
+  "rewrites": [
     {
-      "source": "/profile",
-      "destination": "https://nakadei.jp"
-    },
-    {
-      "source": "/carrier",
-      "destination": "https://nakadei.jp"
+      "source": "/*",
+      "destination": "/index.html"
     }
   ]
 }
