@@ -14,7 +14,7 @@ export const AboutMe: React.VFC = () => {
           Daisuke Nakata
         </div>
         <div className="text-xl font-normal text-slate-600 mt-4">
-          engineer / gamer / otaku
+          <span>engineer / gamer</span>
         </div>
       </div>
       
