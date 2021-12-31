@@ -3,7 +3,7 @@ import { PageLink } from '../components'
 
 export const Links: React.VFC = () => {
   return (
-    <div className="w-full h-full flex justify-center">
+    <div className="w-full py-4 flex justify-center">
       <div className="w-5/6 h-full flex justify-center align-middle items-center">
         <div className="w-1/3 flex justify-center align-middle">
           <PageLink img={'bg-icon-twitter'} linkText={'@nakadei'} url={'https://twitter.com/nakadeng'} />

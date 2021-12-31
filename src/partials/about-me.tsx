@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Profile: React.VFC = () => {
+export const AboutMe: React.VFC = () => {
   return (
     <div className="w-full h-full flex justify-center align-middle items-center">
       {/* icon */}
