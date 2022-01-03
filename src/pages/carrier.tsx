@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 export const Carrier: React.VFC = () => {
+
+  useEffect(() => {
+    document.title = 'nakadei.jp | Carrier'
+  }, [])
+
   return (
     <div className="w-full h-full">
       <div className="bg-blue-50 rounded-b-xl py-4 flex flex-col justify-center">

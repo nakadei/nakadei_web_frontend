@@ -1,7 +1,11 @@
-import React from 'react'
-import { Links, AboutMe } from '../partials'
+import React, { useEffect } from 'react'
 
 export const Profile: React.VFC = () => {
+
+  useEffect(() => {
+    document.title = 'nakadei.jp | Profile'
+  }, [])
+
   return (
     <div className="w-full h-full">
       <div className="bg-white p-10 shadow-sm">
