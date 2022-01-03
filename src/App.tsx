@@ -6,7 +6,7 @@ import {
   useLocation
 } from "react-router-dom";
 import React, { useState, useCallback, useEffect } from 'react'
-import { Top, Profile, Carrier } from './pages'
+import { Top, Carrier } from './pages'
 import { Header } from './components'
 
 const App: React.VFC = () => {
@@ -30,7 +30,6 @@ const App: React.VFC = () => {
         <div className="w-full">
           <Routes>
             <Route path="/" element={<Top />} />
-            <Route path="/profile" element={<Profile />} />
             <Route path="/carrier" element={<Carrier />} />
             <Route path="*" element={<Top />} />
           </Routes>
