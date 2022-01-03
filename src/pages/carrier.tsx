@@ -10,7 +10,7 @@ export const Carrier: React.VFC = () => {
     <div className="w-full h-full">
       <div className="bg-blue-50 rounded-b-xl py-4 flex flex-col justify-center">
         <div className="py-3 sm:max-w-xl sm:mx-auto w-full px-2 sm:px-0">
-          <div className="relative text-slate-600 font-light antialiased">
+          <div className="relative text-slate-600 font-normal antialiased">
 
             {/*<!-- Vertical bar running through middle -->*/}
             <div className="hidden sm:block w-1 bg-blue-300 absolute h-full left-1/2 transform -translate-x-1/2"></div>
