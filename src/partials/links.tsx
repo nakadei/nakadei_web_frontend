@@ -4,14 +4,14 @@ import { PageLink } from '../components'
 export const Links: React.VFC = () => {
   return (
     <div className="w-full py-4 flex justify-center">
-      <div className="w-full h-full flex justify-center align-middle items-center px-4">
-        <div className="w-1/3 flex justify-center align-middle">
+      <div className="w-full h-full flex flex-col md:flex-row justify-center align-middle items-center px-4">
+        <div className="md:w-1/3 flex justify-center align-middle py-1">
           <PageLink img={'bg-icon-twitter'} linkText={'@nakadei'} url={'https://twitter.com/nakadeng'} />
         </div>
-        <div className="w-1/3 flex justify-center align-middle">
+        <div className="md:w-1/3 flex justify-center align-middle py-1">
           <PageLink img={'bg-icon-github'}linkText={'nakadeng'} url={'https://github.com/nakadeng'} />
         </div>
-        <div className="w-1/3 flex justify-center align-middle">
+        <div className="md:w-1/3 flex justify-center align-middle py-1">
           <PageLink img={'bg-icon-blog'} linkText={'nakadei blog'} url={'https://nakadeng.github.io/nakadeng/'} />
         </div>
       </div>

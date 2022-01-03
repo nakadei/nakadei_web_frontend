@@ -9,7 +9,7 @@ type Props = {
 
 export const PageLink: React.VFC<Props> = ({ img, linkText, url }) => {
   return (
-    <div className="min-w-[300px] flex justify-center">
+    <div className="h-full flex justify-center">
       <div className={clsx(
         'h-[24px] w-[24px] flex flex-col justify-center align-middle bg-no-repeat link link-hover',
         img
