@@ -20,7 +20,7 @@ export const Carrier: React.VFC = () => {
               <div className="flex flex-col sm:flex-row items-center">
                 <div className="flex justify-start w-full mx-auto items-center">
                   <div className="w-full sm:w-1/2 sm:pr-8">
-                    <div className="p-4 bg-white rounded shadow">
+                    <div className="p-4 bg-white rounded shadow-lg">
                       <p>Funabashi-Joho-Business</p>
                       <p>College of Technology</p>
                       <p className="mt-3 text-sm text-right">2013/4 ~ 2016/3</p>
@@ -40,7 +40,7 @@ export const Carrier: React.VFC = () => {
               <div className="flex flex-col sm:flex-row items-center">
                 <div className="flex justify-end w-full mx-auto items-center">
                   <div className="w-full sm:w-1/2 sm:pl-8">
-                    <div className="p-4 bg-white rounded shadow">
+                    <div className="p-4 bg-white rounded shadow-lg">
                       <p>Asia Quest Inc.</p>
                       <p className="mt-1 text-xs">Infra Engineer</p>
                       <p className="mt-3 text-sm text-right">2016/4 ~ 2017/12</p>
@@ -56,7 +56,7 @@ export const Carrier: React.VFC = () => {
               <div className="flex flex-col sm:flex-row items-center">
                 <div className="flex justify-start w-full mx-auto items-center">
                   <div className="w-full sm:w-1/2 sm:pr-8">
-                    <div className="p-4 bg-white rounded shadow">
+                    <div className="p-4 bg-white rounded shadow-lg">
                       <p>Japan Digital Design Inc.</p>
                       <p className="mt-1 text-xs">Infra / Corporate Engineer</p>
                       <p className="mt-3 text-sm text-right">2018/9 ~ 2019/9</p>
@@ -72,7 +72,7 @@ export const Carrier: React.VFC = () => {
               <div className="flex flex-col sm:flex-row items-center">
                 <div className="flex justify-end w-full mx-auto items-center">
                   <div className="w-full sm:w-1/2 sm:pl-8">
-                    <div className="p-4 bg-white rounded shadow">
+                    <div className="p-4 bg-white rounded shadow-lg">
                       <p>Japan Digital Design Inc.</p>
                       <p className="mt-1 text-xs">Infra / Frontend Engineer</p>
                       <p className="mt-3 text-sm text-right">2019/10 ~ Present</p>
