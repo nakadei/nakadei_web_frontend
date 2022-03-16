@@ -8,11 +8,11 @@ export const Top: React.VFC = () => {
   }, [])
 
   return (
-    <div className="w-full h-full">
-      <div className="w-full py-[130px] border-b">
+    <div className="w-full h-full flex flex-col justify-between">
+      <div className="w-full py-[130px]">
         <AboutMe />
       </div>
-      <div className="w-full">
+      <div className="w-full border-t">
         <Links />
       </div>
     </div>

@@ -27,7 +27,7 @@ const App: React.VFC = () => {
         <div className="w-full">
           <Header active={activePage} onClick={handleHeaderRowClick} />
         </div>
-        <div className="w-full">
+        <div className="w-full h-full">
           <Routes>
             <Route path="/" element={<Top />} />
             <Route path="/carrier" element={<Carrier />} />
