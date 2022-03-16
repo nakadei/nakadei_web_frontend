@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 export const Carrier: React.VFC = () => {
 
   useEffect(() => {
-    document.title = 'nakadei.jp | Carrier'
+    document.title = 'Carrier | nakadei.jp'
   }, [])
 
   return (
