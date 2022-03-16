@@ -15,7 +15,7 @@ const App: React.VFC = () => {
 
   useEffect(() => {
     setActivePage(location.pathname)
-  },[])
+  }, [])
 
   const handleHeaderRowClick = useCallback((page) => {
     setActivePage(page)
@@ -23,7 +23,7 @@ const App: React.VFC = () => {
 
   return (
     <div className="w-full h-full flex flex-col items-center">
-      <div className="w-full max-w-[640px] min-h-[500px] flex flex-col bg-white rounded-xl border-4 border-white md:mt-10">
+      <div className="w-full max-w-[640px] min-h-full md:min-h-[500px] flex flex-col bg-white rounded-xl border-4 border-white md:mt-10 md:mb-4">
         <div className="w-full">
           <Header active={activePage} onClick={handleHeaderRowClick} />
         </div>
