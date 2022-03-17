@@ -1,6 +1,5 @@
 import './App.css'
 import {
-  BrowserRouter,
   Routes,
   Route,
   useLocation
@@ -22,7 +21,7 @@ const App: React.VFC = () => {
   }, [setActivePage])
 
   return (
-    <div className="w-full h-full flex flex-col items-center">
+    <div className="w-full h-screen md:h-min flex justify-center">
       <div className="w-full max-w-[640px] min-h-full md:min-h-[500px] flex flex-col bg-white rounded-xl border-4 border-white md:mt-10 md:mb-4">
         <div className="w-full">
           <Header active={activePage} onClick={handleHeaderRowClick} />
