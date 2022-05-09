@@ -75,7 +75,7 @@ export const Carrier: React.VFC = () => {
                     <div className="p-4 bg-white rounded shadow-lg">
                       <p>Japan Digital Design Inc.</p>
                       <p className="mt-1 text-xs">Infra / Frontend Engineer</p>
-                      <p className="mt-3 text-sm text-right">2019/10 ~ Present</p>
+                      <p className="mt-3 text-sm text-right">2019/10 ~ 2022/03</p>
                     </div>
                   </div>
                 </div>
