@@ -88,18 +88,35 @@ export const Carrier: React.VFC = () => {
             </div>
 
             {/*<!-- Left section, set by justify-start and sm:pr-8 -->*/}
-            <div className="mt-6 sm:mt-0">
+            <div className="mt-6 sm:mt-0 sm:mb-12">
               <div className="flex flex-col sm:flex-row items-center">
                 <div className="flex justify-start w-full mx-auto items-center">
                   <div className="w-full sm:w-1/2 sm:pr-8">
                     <div className="p-4 bg-white rounded shadow-lg">
                       <p>Freelance</p>
                       <p className="mt-1 text-xs">Frontend Engineer</p>
-                      <p className="mt-3 text-sm text-right">2022/7 ~ Present</p>
+                      <p className="mt-3 text-sm text-right">2022/07 ~ 2022/09</p>
                     </div>
                   </div>
                 </div>
                 <div className="rounded-full bg-blue-500 border-white border-4 w-8 h-8 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center" />
+              </div>
+            </div>
+
+            {/*<!-- Right section, set by justify-end and sm:pl-8 -->*/}
+            <div className="mt-6 sm:mt-0">
+              <div className="flex flex-col sm:flex-row items-center">
+                <div className="flex justify-end w-full mx-auto items-center">
+                  <div className="w-full sm:w-1/2 sm:pl-8">
+                    <div className="p-4 bg-white rounded shadow-lg">
+                      <p>Fanfare Inc.</p>
+                      <p className="mt-1 text-xs">Frontend Engineer</p>
+                      <p className="mt-3 text-sm text-right">2022/12 ~ Present</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="rounded-full bg-blue-500 border-white border-4 w-8 h-8 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                </div>
               </div>
             </div>
 
