@@ -12,7 +12,7 @@ export const Links: React.VFC = () => {
           <PageLink img={'bg-icon-github'} linkText={'github'} url={'https://github.com/nakadei'} />
         </div>
         <div className="w-full md:w-1/3 flex justify-center align-middle py-3 md:py-1">
-          <PageLink img={'bg-icon-blog'} linkText={'blog'} url={'https://nakadei.notion.site/nakadei/tech-blog-ebd8b145fa0343d0a6a29dd88653eef0'} />
+          <PageLink img={'bg-icon-blog'} linkText={'blog'} url={'https://scrapbox.io/nakadei/'} />
         </div>
       </div>
     </div>
