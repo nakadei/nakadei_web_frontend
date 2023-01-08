@@ -21,9 +21,9 @@ export const Carrier: React.VFC = () => {
                 <div className="flex justify-start w-full mx-auto items-center">
                   <div className="w-full sm:w-1/2 sm:pr-8">
                     <div className="p-4 bg-white rounded shadow-lg">
-                      <p>Funabashi-Joho-Business</p>
-                      <p>College of Technology</p>
-                      <p className="mt-3 text-sm text-right">2013/4 ~ 2016/3</p>
+                      <p className="font-semibold">Funabashi-Joho-Business</p>
+                      <p className='font-semibold'>College of Technology</p>
+                      <p className="mt-3 text-sm text-right font-medium">2013/4 ~ 2016/3</p>
                     </div>
                   </div>
                 </div>
@@ -41,9 +41,9 @@ export const Carrier: React.VFC = () => {
                 <div className="flex justify-end w-full mx-auto items-center">
                   <div className="w-full sm:w-1/2 sm:pl-8">
                     <div className="p-4 bg-white rounded shadow-lg">
-                      <p>Asia Quest Inc.</p>
-                      <p className="mt-1 text-xs">Infra Engineer</p>
-                      <p className="mt-3 text-sm text-right">2016/4 ~ 2017/12</p>
+                      <p className="font-semibold">Asia Quest Inc.</p>
+                      <p className="mt-1 text-xs font-medium">Infra Engineer</p>
+                      <p className="mt-3 text-sm text-right font-medium">2016/4 ~ 2017/12</p>
                     </div>
                   </div>
                 </div>
@@ -57,9 +57,9 @@ export const Carrier: React.VFC = () => {
                 <div className="flex justify-start w-full mx-auto items-center">
                   <div className="w-full sm:w-1/2 sm:pr-8">
                     <div className="p-4 bg-white rounded shadow-lg">
-                      <p>Japan Digital Design Inc.</p>
-                      <p className="mt-1 text-xs">Infra / Corporate Engineer</p>
-                      <p className="mt-3 text-sm text-right">2018/9 ~ 2019/9</p>
+                      <p className="font-semibold">Japan Digital Design Inc.</p>
+                      <p className="mt-1 text-xs font-medium">Infra / Corporate Engineer</p>
+                      <p className="mt-3 text-sm text-right font-medium">2018/9 ~ 2019/9</p>
                     </div>
                   </div>
                 </div>
@@ -73,9 +73,9 @@ export const Carrier: React.VFC = () => {
                 <div className="flex justify-end w-full mx-auto items-center">
                   <div className="w-full sm:w-1/2 sm:pl-8">
                     <div className="p-4 bg-white rounded shadow-lg">
-                      <p>Japan Digital Design Inc.</p>
-                      <p className="mt-1 text-xs">Infra / Frontend Engineer</p>
-                      <p className="mt-3 text-sm text-right">2019/10 ~ 2022/03</p>
+                      <p className="font-semibold">Japan Digital Design Inc.</p>
+                      <p className="mt-1 text-xs font-medium">Infra / Frontend Engineer</p>
+                      <p className="mt-3 text-sm text-right font-medium">2019/10 ~ 2022/03</p>
                     </div>
                   </div>
                 </div>
@@ -93,9 +93,9 @@ export const Carrier: React.VFC = () => {
                 <div className="flex justify-start w-full mx-auto items-center">
                   <div className="w-full sm:w-1/2 sm:pr-8">
                     <div className="p-4 bg-white rounded shadow-lg">
-                      <p>Freelance</p>
-                      <p className="mt-1 text-xs">Frontend Engineer</p>
-                      <p className="mt-3 text-sm text-right">2022/07 ~ 2022/09</p>
+                      <p className="font-semibold">Freelance</p>
+                      <p className="mt-1 text-xs font-medium">Frontend Engineer</p>
+                      <p className="mt-3 text-sm text-right font-medium">2022/07 ~ 2022/09</p>
                     </div>
                   </div>
                 </div>
@@ -109,9 +109,9 @@ export const Carrier: React.VFC = () => {
                 <div className="flex justify-end w-full mx-auto items-center">
                   <div className="w-full sm:w-1/2 sm:pl-8">
                     <div className="p-4 bg-white rounded shadow-lg">
-                      <p>Fanfare Inc.</p>
-                      <p className="mt-1 text-xs">Frontend Engineer</p>
-                      <p className="mt-3 text-sm text-right">2022/12 ~ Present</p>
+                      <p className="font-semibold">Fanfare Inc.</p>
+                      <p className="mt-1 text-xs font-medium">Frontend Engineer</p>
+                      <p className="mt-3 text-sm text-right font-medium">2022/12 ~ Present</p>
                     </div>
                   </div>
                 </div>

@@ -14,7 +14,7 @@ export const PageLink: React.VFC<Props> = ({ img, linkText, url }) => {
         'h-[24px] w-[24px] flex flex-col justify-center align-middle bg-no-repeat link link-hover',
         img
       )} />
-      <div className="flex flex-col justify-center align-middle text-center text-blue-600 font-light ml-1">
+      <div className="flex flex-col justify-center align-middle text-center text-blue-600 font-medium ml-1">
         <a href={url} className="no-underline hover:underline" target="_blank">
           {linkText}
         </a>
